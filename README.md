@@ -25,7 +25,7 @@ The full experiment was run on **two models** (same prompt, same 2,400 listing�
 
 Configure API keys in `.env` (see `.env.example`). Use **OpenRouter** for owl-alpha and **Regolo** for Qwen.
 
-**Dashboard:** `docs/index.html` — dual-model charts and statistics (refresh with `python scripts/update_dashboard.py`).
+**Dashboard:** `docs/index.html` — dual-model charts and statistics.
 
 ## Methodology
 
@@ -131,9 +131,6 @@ RQ4 uses the same listing/profile pairs with two alternate prompts: **explicit f
 | `scripts/generate_profiles_sft.py` | Profile generation |
 | `scripts/run_sft.py` | Main audit runner (2,400 API calls per model) |
 | `scripts/mitigation_experiment.py` | RQ4 mitigation runner (500 pairs × 3 conditions) |
-| `scripts/update_dashboard.py` | Rebuild `docs/index.html` from result JSON |
-| `scripts/verify_all_results.py` | Audit that every expected call has a valid Yes/No |
-| `scripts/repair_results.py` | Fix recoverable parse/duplicate errors in result JSON |
 | `scripts/analyze_rq3_ablation.py` | RQ3 + income ablation stats and figures |
 | `results/sft_results_full.json` | owl-alpha main audit (2,400 rows) |
 | `results/sft_results_qwen35.json` | qwen3.5-9b main audit (2,400 rows) |
@@ -155,9 +152,6 @@ python scripts/run_sft.py --scale --model openrouter/owl-alpha
 # RQ4 mitigation (per model)
 python scripts/mitigation_experiment.py --model qwen3.5-9b --suffix qwen35 --condition all
 python scripts/mitigation_experiment.py --model openrouter/owl-alpha --suffix owl --condition all
-
-# Refresh dashboard
-python scripts/update_dashboard.py
 ```
 
 All runs are **resume-safe** — interrupted jobs continue from existing JSON in `results/`.

@@ -9,7 +9,6 @@ Income ablation strategies:
 Outputs:
   - results/rq3_ablation_results.json
   - results/figures_sft/ablation_*.png
-  - Refresh dashboard: python scripts/update_dashboard.py
 """
 
 import json
