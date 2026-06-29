@@ -33,11 +33,7 @@ results/mit_cot.json
 # Optional CSV exports (uncomment to track clean exports instead)
 # results/*.csv
 
-# One-off debug / ping scripts (not part of the experiment pipeline)
-scripts/_*.py
-scripts/quick_test.py
-scripts/quick_test2.py
-scripts/quick_fresh.py
+# Local script output
 scripts/results/
 
 # Single dashboard HTML only (docs/index.html)

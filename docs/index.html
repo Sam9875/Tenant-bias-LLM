@@ -1099,25 +1099,15 @@
 <tr><th>File</th><th>Description</th></tr>
 <tr><td><code>data/turin_listings.json</code></td><td>5 real Turin rental apartments (from immobiliare.it)</td></tr>
 <tr><td><code>data/houseseeker_profiles.json</code></td><td>480 profiles (24 sets × 20) — all combinations</td></tr>
-<tr><td><code>results/sft_results_qwen35.json</code></td><td>Qwen3.5-9b main audit (Regolo) — 1732/2400 so far</td></tr>
-<tr><td><code>results/sft_results_full.json</code></td><td>2,400 qwen3.5-9b results (prior full factorial)</td></tr>
-<tr><td><code>results/mit_baseline_owl.json</code></td><td>500 RQ4 baseline rows (extracted from full run)</td></tr>
-<tr><td><code>results/mit_fairness_owl.json</code></td><td>500 RQ4 explicit-fairness prompt results</td></tr>
-<tr><td><code>results/mit_cot_owl.json</code></td><td>500 RQ4 chain-of-thought results</td></tr>
-<tr><td><code>scripts/mitigation_experiment.py</code></td><td>RQ4 runner (all 5 apartments, resume-safe)</td></tr>
-<tr><td><code>scripts/analyze_mitigation.py</code></td><td>RQ4 summary statistics</td></tr>
-<tr><td><code>results/sft_results.json</code></td><td>500 Claude single-call results (prior run)</td></tr>
-<tr><td><code>results/batch_results.json</code></td><td>100 batched results (same pairs, 10 per call)</td></tr>
-<tr><td><code>results/clarify_test.json</code></td><td>20 clarifying-test results (5 names per cell)</td></tr>
-<tr><td><code>scripts/run_sft.py</code></td><td>Experiment runner (single calls, 8 RPM)</td></tr>
-<tr><td><code>scripts/batch_comparison.py</code></td><td>Single vs batched comparison runner</td></tr>
-<tr><td><code>scripts/clarify_test.py</code></td><td>Clarifying test runner</td></tr>
 <tr><td><code>scripts/generate_profiles_sft.py</code></td><td>Profile generator (480 profiles)</td></tr>
-<tr><td><code>scripts/audit_files.py</code></td><td>File format validation</td></tr>
-<tr><td><code>scripts/compute_dashboard_data.py</code></td><td>Aggregates prior 500-call data for dashboard</td></tr>
-<tr><td><code>scripts/compute_full_dashboard.py</code></td><td>Aggregates 2400-call qwen3.5-9b data for dashboard</td></tr>
+<tr><td><code>scripts/run_sft.py</code></td><td>Main audit runner (2,400 API calls per model)</td></tr>
+<tr><td><code>scripts/mitigation_experiment.py</code></td><td>RQ4 mitigation runner (500 pairs × 3 conditions)</td></tr>
 <tr><td><code>scripts/analyze_rq3_ablation.py</code></td><td>RQ3 intersectional + income ablation analysis</td></tr>
+<tr><td><code>results/sft_results_full.json</code></td><td>owl-alpha main audit (2,400 rows)</td></tr>
+<tr><td><code>results/sft_results_qwen35.json</code></td><td>qwen3.5-9b main audit (2,400 rows)</td></tr>
+<tr><td><code>results/mit_*_owl.json</code> / <code>mit_*_qwen35.json</code></td><td>RQ4 baseline, fairness, and CoT (500 rows each)</td></tr>
 <tr><td><code>results/rq3_ablation_results.json</code></td><td>Computed RQ3 + ablation stats</td></tr>
+<tr><td><code>docs/index.html</code></td><td>Results dashboard (this file)</td></tr>
 </table>
 </div>
 
