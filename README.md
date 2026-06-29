@@ -1,4 +1,4 @@
-# LLM_SFT: Tenant Bias Audit (Prof. Samesun Spec)
+# LLM_SFT: Tenant Bias Audit
 
 This folder contains the experiment following the professor's specification:
 **"Investigating discrimination by an LLM in the assignment of rental apartments in Turin."**
