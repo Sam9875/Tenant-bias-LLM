@@ -7,46 +7,9 @@ This folder contains the experiment following the:
 
 Tests whether LLMs discriminate against rental applicants based on **gender** or **national background**, when legitimate factors (income, employment, family situation) are held in various combinations.
 
-## Experiment status (complete)
-
-**All planned API calls were executed and verified.** The project covers **7,800 LLM evaluations** across two models (main audit + RQ4 mitigation). Every call returned a valid **Yes** or **No** fit decision.
-
-| Phase | Model | API calls | Status | Approx. runtime¹ | Completed |
-|-------|-------|-----------|--------|------------------|-----------|
-| Main audit (RQ1–RQ3) | `openrouter/owl-alpha` | 2,400 | ✅ Complete | ~4–5 h | Jun 2026 |
-| RQ4 baseline | `openrouter/owl-alpha` | 500 | ✅ Complete | ~50 min | 18 Jun 2026 |
-| RQ4 explicit fairness | `openrouter/owl-alpha` | 500 | ✅ Complete | ~2 h | 18 Jun 2026 |
-| RQ4 chain-of-thought | `openrouter/owl-alpha` | 500 | ✅ Complete | ~1 h | 27 Jun 2026 |
-| **owl-alpha subtotal** | | **3,900** | **✅** | **~8 h** | |
-| Main audit (RQ1–RQ3) | `qwen3.5-9b` | 2,400 | ✅ Complete | ~5–6 h | 27 Jun 2026 |
-| RQ4 baseline | `qwen3.5-9b` | 500 | ✅ Complete | ~1 h | 29 Jun 2026 |
-| RQ4 explicit fairness | `qwen3.5-9b` | 500 | ✅ Complete | ~1.5 h | 26 Jun 2026 |
-| RQ4 chain-of-thought | `qwen3.5-9b` | 500 | ✅ Complete | ~1 h | 27 Jun 2026 |
-| **qwen3.5-9b subtotal** | | **3,900** | **✅** | **~9 h** | |
-| **Project total** | **both models** | **7,800** | **✅ Complete** | **~17 h** | Jun 2026 |
-
-¹ Wall-clock time includes rate-limit waits (10 RPM on Regolo; OpenRouter free-tier limits on owl-alpha) and JSON-parse retries. Runs were spread over multiple sessions in mid–late June 2026.
-
-**Verify completeness locally** (requires result JSON in `results/`):
-
-```bash
-python scripts/verify_all_results.py
-# Expected: "All expected calls have valid Yes/No results."
-```
-
-Raw result files (`results/*.json`) are gitignored (~2 MB each) but are produced by the scripts above and bundled into the dashboard.
-
-## For reviewers (professor)
-
-1. **Read this README** — methodology, prompts, and experiment scope.
-2. **Open the dashboard** — download the repo and open **`docs/index.html`** in any browser (no server or API keys needed). It shows all charts and statistics for **both models** (main audit + RQ4).
-3. **Optional check** — if you have the `results/` JSON files, run `python scripts/verify_all_results.py` to confirm 2,400 + 500×3 calls per model.
-
-**Repository:** https://github.com/Sam9875/Tenant-bias-LLM
-
 ## Models used
 
-The full experiment was run on **two models** (same prompt, same 2,400 listing–profile pairs):
+The full experiment was run on **two models** (same prompt, same 2,400 listing–profile pairs). **All 7,800 planned API calls are complete** (main audit + RQ4 per model). Approx. runtime: **~8 h** for `openrouter/owl-alpha`, **~9 h** for `qwen3.5-9b` (June 2026). Open **`docs/index.html`** in a browser to view results.
 
 | Model | Provider | Main results file | Calls |
 |-------|----------|-------------------|-------|
