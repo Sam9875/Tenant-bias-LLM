@@ -1,0 +1,481 @@
+﻿Profile ID,Set,Income,Income (EUR/yr),Employment,Marital,Children,Gender,pronoun,Nationality,Nationality (full),Name,Age
+S01_lesn_local_citizen_male_1,S01_lesn,low,12000,employed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,25
+S01_lesn_local_citizen_male_2,S01_lesn,low,12000,employed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Alessandro Ferrari,32
+S01_lesn_eu_foreigner_male_1,S01_lesn,low,12000,employed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Stefan Ionescu,29
+S01_lesn_eu_foreigner_male_2,S01_lesn,low,12000,employed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Carlos García,28
+S01_lesn_non_eu_foreigner_male_1,S01_lesn,low,12000,employed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yusuf Ibrahim,27
+S01_lesn_non_eu_foreigner_male_2,S01_lesn,low,12000,employed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Ahmed Khan,38
+S01_lesn_refugee_male_1,S01_lesn,low,12000,employed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Mohamed Hassan,25
+S01_lesn_refugee_male_2,S01_lesn,low,12000,employed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Mohamed Hassan,31
+S01_lesn_second_gen_male_1,S01_lesn,low,12000,employed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,25
+S01_lesn_second_gen_male_2,S01_lesn,low,12000,employed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sami Khelif,31
+S01_lesn_local_citizen_female_1,S01_lesn,low,12000,employed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,38
+S01_lesn_local_citizen_female_2,S01_lesn,low,12000,employed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Francesca Bianchi,39
+S01_lesn_eu_foreigner_female_1,S01_lesn,low,12000,employed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Kowalski,33
+S01_lesn_eu_foreigner_female_2,S01_lesn,low,12000,employed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Elena Popescu,30
+S01_lesn_non_eu_foreigner_female_1,S01_lesn,low,12000,employed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Fatima Ibrahim,38
+S01_lesn_non_eu_foreigner_female_2,S01_lesn,low,12000,employed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yuki Tanaka,33
+S01_lesn_refugee_female_1,S01_lesn,low,12000,employed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Fatou Diallo,31
+S01_lesn_refugee_female_2,S01_lesn,low,12000,employed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,28
+S01_lesn_second_gen_female_1,S01_lesn,low,12000,employed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sara El Amrani,37
+S01_lesn_second_gen_female_2,S01_lesn,low,12000,employed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sara El Amrani,36
+S02_lesy_local_citizen_male_1,S02_lesy,low,12000,employed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Alessandro Ferrari,33
+S02_lesy_local_citizen_male_2,S02_lesy,low,12000,employed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,39
+S02_lesy_eu_foreigner_male_1,S02_lesy,low,12000,employed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Jan Kowalski,28
+S02_lesy_eu_foreigner_male_2,S02_lesy,low,12000,employed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,27
+S02_lesy_non_eu_foreigner_male_1,S02_lesy,low,12000,employed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Ahmed Khan,34
+S02_lesy_non_eu_foreigner_male_2,S02_lesy,low,12000,employed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yusuf Ibrahim,36
+S02_lesy_refugee_male_1,S02_lesy,low,12000,employed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,31
+S02_lesy_refugee_male_2,S02_lesy,low,12000,employed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Mohamed Hassan,26
+S02_lesy_second_gen_male_1,S02_lesy,low,12000,employed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,34
+S02_lesy_second_gen_male_2,S02_lesy,low,12000,employed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Youssef El Amrani,32
+S02_lesy_local_citizen_female_1,S02_lesy,low,12000,employed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giulia Rossi,37
+S02_lesy_local_citizen_female_2,S02_lesy,low,12000,employed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Chiara Ferrari,39
+S02_lesy_eu_foreigner_female_1,S02_lesy,low,12000,employed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Carmen García,36
+S02_lesy_eu_foreigner_female_2,S02_lesy,low,12000,employed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Maria Ionescu,36
+S02_lesy_non_eu_foreigner_female_1,S02_lesy,low,12000,employed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yuki Tanaka,31
+S02_lesy_non_eu_foreigner_female_2,S02_lesy,low,12000,employed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Fatima Ibrahim,33
+S02_lesy_refugee_female_1,S02_lesy,low,12000,employed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Amina Hassan,30
+S02_lesy_refugee_female_2,S02_lesy,low,12000,employed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Awa Traoré,32
+S02_lesy_second_gen_female_1,S02_lesy,low,12000,employed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Aïcha Diop,39
+S02_lesy_second_gen_female_2,S02_lesy,low,12000,employed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Maria Russo,33
+S03_lemn_local_citizen_male_1,S03_lemn,low,12000,employed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giuseppe Conti,32
+S03_lemn_local_citizen_male_2,S03_lemn,low,12000,employed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Alessandro Ferrari,26
+S03_lemn_eu_foreigner_male_1,S03_lemn,low,12000,employed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Stefan Ionescu,26
+S03_lemn_eu_foreigner_male_2,S03_lemn,low,12000,employed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Pierre Dubois,37
+S03_lemn_non_eu_foreigner_male_1,S03_lemn,low,12000,employed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,27
+S03_lemn_non_eu_foreigner_male_2,S03_lemn,low,12000,employed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Raj Patel,35
+S03_lemn_refugee_male_1,S03_lemn,low,12000,employed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ibrahim Diallo,40
+S03_lemn_refugee_male_2,S03_lemn,low,12000,employed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,39
+S03_lemn_second_gen_male_1,S03_lemn,low,12000,employed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,33
+S03_lemn_second_gen_male_2,S03_lemn,low,12000,employed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,32
+S03_lemn_local_citizen_female_1,S03_lemn,low,12000,employed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,33
+S03_lemn_local_citizen_female_2,S03_lemn,low,12000,employed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,38
+S03_lemn_eu_foreigner_female_1,S03_lemn,low,12000,employed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Kowalski,37
+S03_lemn_eu_foreigner_female_2,S03_lemn,low,12000,employed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Camille Dubois,32
+S03_lemn_non_eu_foreigner_female_1,S03_lemn,low,12000,employed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Priya Patel,40
+S03_lemn_non_eu_foreigner_female_2,S03_lemn,low,12000,employed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Li Chen,26
+S03_lemn_refugee_female_1,S03_lemn,low,12000,employed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Amina Hassan,29
+S03_lemn_refugee_female_2,S03_lemn,low,12000,employed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Fatou Diallo,38
+S03_lemn_second_gen_female_1,S03_lemn,low,12000,employed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,27
+S03_lemn_second_gen_female_2,S03_lemn,low,12000,employed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Maria Russo,37
+S04_lemy_local_citizen_male_1,S04_lemy,low,12000,employed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giuseppe Conti,44
+S04_lemy_local_citizen_male_2,S04_lemy,low,12000,employed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giuseppe Conti,38
+S04_lemy_eu_foreigner_male_1,S04_lemy,low,12000,employed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Jan Kowalski,30
+S04_lemy_eu_foreigner_male_2,S04_lemy,low,12000,employed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Carlos García,33
+S04_lemy_non_eu_foreigner_male_1,S04_lemy,low,12000,employed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yusuf Ibrahim,38
+S04_lemy_non_eu_foreigner_male_2,S04_lemy,low,12000,employed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yusuf Ibrahim,40
+S04_lemy_refugee_male_1,S04_lemy,low,12000,employed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Mohamed Hassan,39
+S04_lemy_refugee_male_2,S04_lemy,low,12000,employed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,35
+S04_lemy_second_gen_male_1,S04_lemy,low,12000,employed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Nicola Russo,30
+S04_lemy_second_gen_male_2,S04_lemy,low,12000,employed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Karim Bouchaib,35
+S04_lemy_local_citizen_female_1,S04_lemy,low,12000,employed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,33
+S04_lemy_local_citizen_female_2,S04_lemy,low,12000,employed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Chiara Ferrari,36
+S04_lemy_eu_foreigner_female_1,S04_lemy,low,12000,employed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Maria Ionescu,41
+S04_lemy_eu_foreigner_female_2,S04_lemy,low,12000,employed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Maria Ionescu,30
+S04_lemy_non_eu_foreigner_female_1,S04_lemy,low,12000,employed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Aisha Khan,40
+S04_lemy_non_eu_foreigner_female_2,S04_lemy,low,12000,employed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Soo Kim,30
+S04_lemy_refugee_female_1,S04_lemy,low,12000,employed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Amina Hassan,41
+S04_lemy_refugee_female_2,S04_lemy,low,12000,employed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,37
+S04_lemy_second_gen_female_1,S04_lemy,low,12000,employed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sara El Amrani,37
+S04_lemy_second_gen_female_2,S04_lemy,low,12000,employed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,32
+S05_lusn_local_citizen_male_1,S05_lusn,low,12000,unemployed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,48
+S05_lusn_local_citizen_male_2,S05_lusn,low,12000,unemployed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Matteo Romano,27
+S05_lusn_eu_foreigner_male_1,S05_lusn,low,12000,unemployed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Jan Kowalski,49
+S05_lusn_eu_foreigner_male_2,S05_lusn,low,12000,unemployed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Stefan Ionescu,29
+S05_lusn_non_eu_foreigner_male_1,S05_lusn,low,12000,unemployed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yusuf Ibrahim,40
+S05_lusn_non_eu_foreigner_male_2,S05_lusn,low,12000,unemployed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Ahmed Khan,30
+S05_lusn_refugee_male_1,S05_lusn,low,12000,unemployed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ahmad Ahmadi,41
+S05_lusn_refugee_male_2,S05_lusn,low,12000,unemployed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,38
+S05_lusn_second_gen_male_1,S05_lusn,low,12000,unemployed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,42
+S05_lusn_second_gen_male_2,S05_lusn,low,12000,unemployed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,47
+S05_lusn_local_citizen_female_1,S05_lusn,low,12000,unemployed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Chiara Ferrari,37
+S05_lusn_local_citizen_female_2,S05_lusn,low,12000,unemployed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Chiara Ferrari,39
+S05_lusn_eu_foreigner_female_1,S05_lusn,low,12000,unemployed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Kowalski,39
+S05_lusn_eu_foreigner_female_2,S05_lusn,low,12000,unemployed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Elena Popescu,32
+S05_lusn_non_eu_foreigner_female_1,S05_lusn,low,12000,unemployed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Priya Patel,27
+S05_lusn_non_eu_foreigner_female_2,S05_lusn,low,12000,unemployed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yuki Tanaka,25
+S05_lusn_refugee_female_1,S05_lusn,low,12000,unemployed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Awa Traoré,42
+S05_lusn_refugee_female_2,S05_lusn,low,12000,unemployed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Fatou Diallo,43
+S05_lusn_second_gen_female_1,S05_lusn,low,12000,unemployed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Aïcha Diop,25
+S05_lusn_second_gen_female_2,S05_lusn,low,12000,unemployed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sara El Amrani,47
+S06_lusy_local_citizen_male_1,S06_lusy,low,12000,unemployed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,32
+S06_lusy_local_citizen_male_2,S06_lusy,low,12000,unemployed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,26
+S06_lusy_eu_foreigner_male_1,S06_lusy,low,12000,unemployed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Pierre Dubois,27
+S06_lusy_eu_foreigner_male_2,S06_lusy,low,12000,unemployed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Jan Kowalski,32
+S06_lusy_non_eu_foreigner_male_1,S06_lusy,low,12000,unemployed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,46
+S06_lusy_non_eu_foreigner_male_2,S06_lusy,low,12000,unemployed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Min Kim,31
+S06_lusy_refugee_male_1,S06_lusy,low,12000,unemployed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,29
+S06_lusy_refugee_male_2,S06_lusy,low,12000,unemployed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,43
+S06_lusy_second_gen_male_1,S06_lusy,low,12000,unemployed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Nicola Russo,32
+S06_lusy_second_gen_male_2,S06_lusy,low,12000,unemployed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Nicola Russo,50
+S06_lusy_local_citizen_female_1,S06_lusy,low,12000,unemployed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Sofia Romano,31
+S06_lusy_local_citizen_female_2,S06_lusy,low,12000,unemployed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giulia Rossi,28
+S06_lusy_eu_foreigner_female_1,S06_lusy,low,12000,unemployed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Carmen García,38
+S06_lusy_eu_foreigner_female_2,S06_lusy,low,12000,unemployed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Camille Dubois,38
+S06_lusy_non_eu_foreigner_female_1,S06_lusy,low,12000,unemployed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Soo Kim,39
+S06_lusy_non_eu_foreigner_female_2,S06_lusy,low,12000,unemployed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Fatima Ibrahim,26
+S06_lusy_refugee_female_1,S06_lusy,low,12000,unemployed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Amina Hassan,26
+S06_lusy_refugee_female_2,S06_lusy,low,12000,unemployed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Layla Al-Rashid,48
+S06_lusy_second_gen_female_1,S06_lusy,low,12000,unemployed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Yasmine Bouchaib,50
+S06_lusy_second_gen_female_2,S06_lusy,low,12000,unemployed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sara El Amrani,32
+S07_lumn_local_citizen_male_1,S07_lumn,low,12000,unemployed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Luca Bianchi,31
+S07_lumn_local_citizen_male_2,S07_lumn,low,12000,unemployed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giuseppe Conti,39
+S07_lumn_eu_foreigner_male_1,S07_lumn,low,12000,unemployed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Stefan Ionescu,38
+S07_lumn_eu_foreigner_male_2,S07_lumn,low,12000,unemployed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Stefan Ionescu,33
+S07_lumn_non_eu_foreigner_male_1,S07_lumn,low,12000,unemployed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Min Kim,32
+S07_lumn_non_eu_foreigner_male_2,S07_lumn,low,12000,unemployed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Wei Chen,39
+S07_lumn_refugee_male_1,S07_lumn,low,12000,unemployed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,28
+S07_lumn_refugee_male_2,S07_lumn,low,12000,unemployed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Mohamed Hassan,45
+S07_lumn_second_gen_male_1,S07_lumn,low,12000,unemployed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sami Khelif,25
+S07_lumn_second_gen_male_2,S07_lumn,low,12000,unemployed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Youssef El Amrani,49
+S07_lumn_local_citizen_female_1,S07_lumn,low,12000,unemployed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Francesca Bianchi,30
+S07_lumn_local_citizen_female_2,S07_lumn,low,12000,unemployed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Sofia Romano,40
+S07_lumn_eu_foreigner_female_1,S07_lumn,low,12000,unemployed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Müller,31
+S07_lumn_eu_foreigner_female_2,S07_lumn,low,12000,unemployed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Müller,26
+S07_lumn_non_eu_foreigner_female_1,S07_lumn,low,12000,unemployed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Priya Patel,37
+S07_lumn_non_eu_foreigner_female_2,S07_lumn,low,12000,unemployed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Li Chen,37
+S07_lumn_refugee_female_1,S07_lumn,low,12000,unemployed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,50
+S07_lumn_refugee_female_2,S07_lumn,low,12000,unemployed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Layla Al-Rashid,34
+S07_lumn_second_gen_female_1,S07_lumn,low,12000,unemployed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Maria Russo,47
+S07_lumn_second_gen_female_2,S07_lumn,low,12000,unemployed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,46
+S08_lumy_local_citizen_male_1,S08_lumy,low,12000,unemployed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Matteo Romano,34
+S08_lumy_local_citizen_male_2,S08_lumy,low,12000,unemployed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Luca Bianchi,39
+S08_lumy_eu_foreigner_male_1,S08_lumy,low,12000,unemployed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Stefan Ionescu,31
+S08_lumy_eu_foreigner_male_2,S08_lumy,low,12000,unemployed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Jan Kowalski,31
+S08_lumy_non_eu_foreigner_male_1,S08_lumy,low,12000,unemployed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yusuf Ibrahim,40
+S08_lumy_non_eu_foreigner_male_2,S08_lumy,low,12000,unemployed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Wei Chen,31
+S08_lumy_refugee_male_1,S08_lumy,low,12000,unemployed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,45
+S08_lumy_refugee_male_2,S08_lumy,low,12000,unemployed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,35
+S08_lumy_second_gen_male_1,S08_lumy,low,12000,unemployed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Youssef El Amrani,32
+S08_lumy_second_gen_male_2,S08_lumy,low,12000,unemployed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,32
+S08_lumy_local_citizen_female_1,S08_lumy,low,12000,unemployed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,32
+S08_lumy_local_citizen_female_2,S08_lumy,low,12000,unemployed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Francesca Bianchi,42
+S08_lumy_eu_foreigner_female_1,S08_lumy,low,12000,unemployed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Elena Popescu,37
+S08_lumy_eu_foreigner_female_2,S08_lumy,low,12000,unemployed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Kowalski,31
+S08_lumy_non_eu_foreigner_female_1,S08_lumy,low,12000,unemployed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Aisha Khan,32
+S08_lumy_non_eu_foreigner_female_2,S08_lumy,low,12000,unemployed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Soo Kim,40
+S08_lumy_refugee_female_1,S08_lumy,low,12000,unemployed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,36
+S08_lumy_refugee_female_2,S08_lumy,low,12000,unemployed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,37
+S08_lumy_second_gen_female_1,S08_lumy,low,12000,unemployed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Yasmine Bouchaib,42
+S08_lumy_second_gen_female_2,S08_lumy,low,12000,unemployed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Aïcha Diop,39
+S09_mesn_local_citizen_male_1,S09_mesn,medium,28000,employed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Matteo Romano,35
+S09_mesn_local_citizen_male_2,S09_mesn,medium,28000,employed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,25
+S09_mesn_eu_foreigner_male_1,S09_mesn,medium,28000,employed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,28
+S09_mesn_eu_foreigner_male_2,S09_mesn,medium,28000,employed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Andrei Popescu,31
+S09_mesn_non_eu_foreigner_male_1,S09_mesn,medium,28000,employed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Ahmed Khan,33
+S09_mesn_non_eu_foreigner_male_2,S09_mesn,medium,28000,employed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Raj Patel,36
+S09_mesn_refugee_male_1,S09_mesn,medium,28000,employed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Mohamed Hassan,32
+S09_mesn_refugee_male_2,S09_mesn,medium,28000,employed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ahmad Ahmadi,34
+S09_mesn_second_gen_male_1,S09_mesn,medium,28000,employed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,39
+S09_mesn_second_gen_male_2,S09_mesn,medium,28000,employed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sami Khelif,34
+S09_mesn_local_citizen_female_1,S09_mesn,medium,28000,employed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,25
+S09_mesn_local_citizen_female_2,S09_mesn,medium,28000,employed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,34
+S09_mesn_eu_foreigner_female_1,S09_mesn,medium,28000,employed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Carmen García,28
+S09_mesn_eu_foreigner_female_2,S09_mesn,medium,28000,employed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Maria Ionescu,33
+S09_mesn_non_eu_foreigner_female_1,S09_mesn,medium,28000,employed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Li Chen,28
+S09_mesn_non_eu_foreigner_female_2,S09_mesn,medium,28000,employed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Fatima Ibrahim,29
+S09_mesn_refugee_female_1,S09_mesn,medium,28000,employed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,34
+S09_mesn_refugee_female_2,S09_mesn,medium,28000,employed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Awa Traoré,31
+S09_mesn_second_gen_female_1,S09_mesn,medium,28000,employed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Yasmine Bouchaib,31
+S09_mesn_second_gen_female_2,S09_mesn,medium,28000,employed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Yasmine Bouchaib,40
+S10_mesy_local_citizen_male_1,S10_mesy,medium,28000,employed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Alessandro Ferrari,26
+S10_mesy_local_citizen_male_2,S10_mesy,medium,28000,employed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,38
+S10_mesy_eu_foreigner_male_1,S10_mesy,medium,28000,employed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Pierre Dubois,26
+S10_mesy_eu_foreigner_male_2,S10_mesy,medium,28000,employed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Andrei Popescu,35
+S10_mesy_non_eu_foreigner_male_1,S10_mesy,medium,28000,employed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Raj Patel,33
+S10_mesy_non_eu_foreigner_male_2,S10_mesy,medium,28000,employed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Raj Patel,39
+S10_mesy_refugee_male_1,S10_mesy,medium,28000,employed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,38
+S10_mesy_refugee_male_2,S10_mesy,medium,28000,employed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,25
+S10_mesy_second_gen_male_1,S10_mesy,medium,28000,employed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Youssef El Amrani,27
+S10_mesy_second_gen_male_2,S10_mesy,medium,28000,employed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,26
+S10_mesy_local_citizen_female_1,S10_mesy,medium,28000,employed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Chiara Ferrari,29
+S10_mesy_local_citizen_female_2,S10_mesy,medium,28000,employed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Sofia Romano,29
+S10_mesy_eu_foreigner_female_1,S10_mesy,medium,28000,employed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Elena Popescu,34
+S10_mesy_eu_foreigner_female_2,S10_mesy,medium,28000,employed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Camille Dubois,26
+S10_mesy_non_eu_foreigner_female_1,S10_mesy,medium,28000,employed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yuki Tanaka,31
+S10_mesy_non_eu_foreigner_female_2,S10_mesy,medium,28000,employed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Fatima Ibrahim,32
+S10_mesy_refugee_female_1,S10_mesy,medium,28000,employed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Amina Hassan,36
+S10_mesy_refugee_female_2,S10_mesy,medium,28000,employed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Awa Traoré,38
+S10_mesy_second_gen_female_1,S10_mesy,medium,28000,employed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,29
+S10_mesy_second_gen_female_2,S10_mesy,medium,28000,employed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Aïcha Diop,30
+S11_memn_local_citizen_male_1,S11_memn,medium,28000,employed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Luca Bianchi,38
+S11_memn_local_citizen_male_2,S11_memn,medium,28000,employed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,30
+S11_memn_eu_foreigner_male_1,S11_memn,medium,28000,employed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Carlos García,35
+S11_memn_eu_foreigner_male_2,S11_memn,medium,28000,employed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,32
+S11_memn_non_eu_foreigner_male_1,S11_memn,medium,28000,employed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,30
+S11_memn_non_eu_foreigner_male_2,S11_memn,medium,28000,employed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yusuf Ibrahim,28
+S11_memn_refugee_male_1,S11_memn,medium,28000,employed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,26
+S11_memn_refugee_male_2,S11_memn,medium,28000,employed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,32
+S11_memn_second_gen_male_1,S11_memn,medium,28000,employed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,39
+S11_memn_second_gen_male_2,S11_memn,medium,28000,employed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Karim Bouchaib,34
+S11_memn_local_citizen_female_1,S11_memn,medium,28000,employed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Francesca Bianchi,32
+S11_memn_local_citizen_female_2,S11_memn,medium,28000,employed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giulia Rossi,31
+S11_memn_eu_foreigner_female_1,S11_memn,medium,28000,employed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Müller,35
+S11_memn_eu_foreigner_female_2,S11_memn,medium,28000,employed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Camille Dubois,27
+S11_memn_non_eu_foreigner_female_1,S11_memn,medium,28000,employed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yuki Tanaka,36
+S11_memn_non_eu_foreigner_female_2,S11_memn,medium,28000,employed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Fatima Ibrahim,37
+S11_memn_refugee_female_1,S11_memn,medium,28000,employed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Awa Traoré,35
+S11_memn_refugee_female_2,S11_memn,medium,28000,employed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Amina Hassan,28
+S11_memn_second_gen_female_1,S11_memn,medium,28000,employed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Yasmine Bouchaib,30
+S11_memn_second_gen_female_2,S11_memn,medium,28000,employed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,33
+S12_memy_local_citizen_male_1,S12_memy,medium,28000,employed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,33
+S12_memy_local_citizen_male_2,S12_memy,medium,28000,employed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giuseppe Conti,43
+S12_memy_eu_foreigner_male_1,S12_memy,medium,28000,employed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Pierre Dubois,40
+S12_memy_eu_foreigner_male_2,S12_memy,medium,28000,employed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,33
+S12_memy_non_eu_foreigner_male_1,S12_memy,medium,28000,employed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Min Kim,36
+S12_memy_non_eu_foreigner_male_2,S12_memy,medium,28000,employed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,31
+S12_memy_refugee_male_1,S12_memy,medium,28000,employed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,30
+S12_memy_refugee_male_2,S12_memy,medium,28000,employed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,36
+S12_memy_second_gen_male_1,S12_memy,medium,28000,employed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Karim Bouchaib,43
+S12_memy_second_gen_male_2,S12_memy,medium,28000,employed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Youssef El Amrani,40
+S12_memy_local_citizen_female_1,S12_memy,medium,28000,employed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,40
+S12_memy_local_citizen_female_2,S12_memy,medium,28000,employed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giulia Rossi,39
+S12_memy_eu_foreigner_female_1,S12_memy,medium,28000,employed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Kowalski,39
+S12_memy_eu_foreigner_female_2,S12_memy,medium,28000,employed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Carmen García,43
+S12_memy_non_eu_foreigner_female_1,S12_memy,medium,28000,employed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yuki Tanaka,42
+S12_memy_non_eu_foreigner_female_2,S12_memy,medium,28000,employed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Fatima Ibrahim,39
+S12_memy_refugee_female_1,S12_memy,medium,28000,employed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Awa Traoré,34
+S12_memy_refugee_female_2,S12_memy,medium,28000,employed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Fatou Diallo,43
+S12_memy_second_gen_female_1,S12_memy,medium,28000,employed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Maria Russo,35
+S12_memy_second_gen_female_2,S12_memy,medium,28000,employed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,39
+S13_musn_local_citizen_male_1,S13_musn,medium,28000,unemployed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Matteo Romano,42
+S13_musn_local_citizen_male_2,S13_musn,medium,28000,unemployed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,34
+S13_musn_eu_foreigner_male_1,S13_musn,medium,28000,unemployed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Pierre Dubois,31
+S13_musn_eu_foreigner_male_2,S13_musn,medium,28000,unemployed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,50
+S13_musn_non_eu_foreigner_male_1,S13_musn,medium,28000,unemployed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Ahmed Khan,44
+S13_musn_non_eu_foreigner_male_2,S13_musn,medium,28000,unemployed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yusuf Ibrahim,35
+S13_musn_refugee_male_1,S13_musn,medium,28000,unemployed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,39
+S13_musn_refugee_male_2,S13_musn,medium,28000,unemployed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,46
+S13_musn_second_gen_male_1,S13_musn,medium,28000,unemployed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,41
+S13_musn_second_gen_male_2,S13_musn,medium,28000,unemployed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Nicola Russo,50
+S13_musn_local_citizen_female_1,S13_musn,medium,28000,unemployed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Francesca Bianchi,46
+S13_musn_local_citizen_female_2,S13_musn,medium,28000,unemployed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giulia Rossi,34
+S13_musn_eu_foreigner_female_1,S13_musn,medium,28000,unemployed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Kowalski,46
+S13_musn_eu_foreigner_female_2,S13_musn,medium,28000,unemployed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Carmen García,44
+S13_musn_non_eu_foreigner_female_1,S13_musn,medium,28000,unemployed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yuki Tanaka,27
+S13_musn_non_eu_foreigner_female_2,S13_musn,medium,28000,unemployed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Priya Patel,46
+S13_musn_refugee_female_1,S13_musn,medium,28000,unemployed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,32
+S13_musn_refugee_female_2,S13_musn,medium,28000,unemployed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Fatou Diallo,29
+S13_musn_second_gen_female_1,S13_musn,medium,28000,unemployed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sara El Amrani,26
+S13_musn_second_gen_female_2,S13_musn,medium,28000,unemployed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Aïcha Diop,40
+S14_musy_local_citizen_male_1,S14_musy,medium,28000,unemployed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giuseppe Conti,49
+S14_musy_local_citizen_male_2,S14_musy,medium,28000,unemployed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,39
+S14_musy_eu_foreigner_male_1,S14_musy,medium,28000,unemployed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,45
+S14_musy_eu_foreigner_male_2,S14_musy,medium,28000,unemployed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Jan Kowalski,31
+S14_musy_non_eu_foreigner_male_1,S14_musy,medium,28000,unemployed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yusuf Ibrahim,47
+S14_musy_non_eu_foreigner_male_2,S14_musy,medium,28000,unemployed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Min Kim,40
+S14_musy_refugee_male_1,S14_musy,medium,28000,unemployed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,32
+S14_musy_refugee_male_2,S14_musy,medium,28000,unemployed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ibrahim Diallo,45
+S14_musy_second_gen_male_1,S14_musy,medium,28000,unemployed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Youssef El Amrani,49
+S14_musy_second_gen_male_2,S14_musy,medium,28000,unemployed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Youssef El Amrani,49
+S14_musy_local_citizen_female_1,S14_musy,medium,28000,unemployed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Sofia Romano,32
+S14_musy_local_citizen_female_2,S14_musy,medium,28000,unemployed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Francesca Bianchi,50
+S14_musy_eu_foreigner_female_1,S14_musy,medium,28000,unemployed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Carmen García,41
+S14_musy_eu_foreigner_female_2,S14_musy,medium,28000,unemployed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Müller,26
+S14_musy_non_eu_foreigner_female_1,S14_musy,medium,28000,unemployed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Aisha Khan,32
+S14_musy_non_eu_foreigner_female_2,S14_musy,medium,28000,unemployed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Li Chen,39
+S14_musy_refugee_female_1,S14_musy,medium,28000,unemployed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Fatou Diallo,50
+S14_musy_refugee_female_2,S14_musy,medium,28000,unemployed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Layla Al-Rashid,46
+S14_musy_second_gen_female_1,S14_musy,medium,28000,unemployed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,42
+S14_musy_second_gen_female_2,S14_musy,medium,28000,unemployed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,35
+S15_mumn_local_citizen_male_1,S15_mumn,medium,28000,unemployed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Matteo Romano,44
+S15_mumn_local_citizen_male_2,S15_mumn,medium,28000,unemployed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giuseppe Conti,38
+S15_mumn_eu_foreigner_male_1,S15_mumn,medium,28000,unemployed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Jan Kowalski,39
+S15_mumn_eu_foreigner_male_2,S15_mumn,medium,28000,unemployed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Stefan Ionescu,48
+S15_mumn_non_eu_foreigner_male_1,S15_mumn,medium,28000,unemployed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Min Kim,39
+S15_mumn_non_eu_foreigner_male_2,S15_mumn,medium,28000,unemployed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,49
+S15_mumn_refugee_male_1,S15_mumn,medium,28000,unemployed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ibrahim Diallo,45
+S15_mumn_refugee_male_2,S15_mumn,medium,28000,unemployed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ahmad Ahmadi,49
+S15_mumn_second_gen_male_1,S15_mumn,medium,28000,unemployed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sami Khelif,40
+S15_mumn_second_gen_male_2,S15_mumn,medium,28000,unemployed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,33
+S15_mumn_local_citizen_female_1,S15_mumn,medium,28000,unemployed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Sofia Romano,27
+S15_mumn_local_citizen_female_2,S15_mumn,medium,28000,unemployed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Chiara Ferrari,32
+S15_mumn_eu_foreigner_female_1,S15_mumn,medium,28000,unemployed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Camille Dubois,35
+S15_mumn_eu_foreigner_female_2,S15_mumn,medium,28000,unemployed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Camille Dubois,42
+S15_mumn_non_eu_foreigner_female_1,S15_mumn,medium,28000,unemployed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Li Chen,29
+S15_mumn_non_eu_foreigner_female_2,S15_mumn,medium,28000,unemployed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Priya Patel,32
+S15_mumn_refugee_female_1,S15_mumn,medium,28000,unemployed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Layla Al-Rashid,47
+S15_mumn_refugee_female_2,S15_mumn,medium,28000,unemployed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Fatou Diallo,47
+S15_mumn_second_gen_female_1,S15_mumn,medium,28000,unemployed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Aïcha Diop,27
+S15_mumn_second_gen_female_2,S15_mumn,medium,28000,unemployed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Maria Russo,38
+S16_mumy_local_citizen_male_1,S16_mumy,medium,28000,unemployed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Alessandro Ferrari,44
+S16_mumy_local_citizen_male_2,S16_mumy,medium,28000,unemployed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Matteo Romano,31
+S16_mumy_eu_foreigner_male_1,S16_mumy,medium,28000,unemployed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Stefan Ionescu,43
+S16_mumy_eu_foreigner_male_2,S16_mumy,medium,28000,unemployed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,30
+S16_mumy_non_eu_foreigner_male_1,S16_mumy,medium,28000,unemployed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Ahmed Khan,42
+S16_mumy_non_eu_foreigner_male_2,S16_mumy,medium,28000,unemployed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Min Kim,30
+S16_mumy_refugee_male_1,S16_mumy,medium,28000,unemployed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ahmad Ahmadi,39
+S16_mumy_refugee_male_2,S16_mumy,medium,28000,unemployed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,43
+S16_mumy_second_gen_male_1,S16_mumy,medium,28000,unemployed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sami Khelif,37
+S16_mumy_second_gen_male_2,S16_mumy,medium,28000,unemployed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Nicola Russo,37
+S16_mumy_local_citizen_female_1,S16_mumy,medium,28000,unemployed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Chiara Ferrari,43
+S16_mumy_local_citizen_female_2,S16_mumy,medium,28000,unemployed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Sofia Romano,30
+S16_mumy_eu_foreigner_female_1,S16_mumy,medium,28000,unemployed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Müller,40
+S16_mumy_eu_foreigner_female_2,S16_mumy,medium,28000,unemployed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Carmen García,42
+S16_mumy_non_eu_foreigner_female_1,S16_mumy,medium,28000,unemployed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Fatima Ibrahim,35
+S16_mumy_non_eu_foreigner_female_2,S16_mumy,medium,28000,unemployed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Soo Kim,34
+S16_mumy_refugee_female_1,S16_mumy,medium,28000,unemployed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Awa Traoré,30
+S16_mumy_refugee_female_2,S16_mumy,medium,28000,unemployed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Layla Al-Rashid,30
+S16_mumy_second_gen_female_1,S16_mumy,medium,28000,unemployed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sara El Amrani,43
+S16_mumy_second_gen_female_2,S16_mumy,medium,28000,unemployed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Aïcha Diop,44
+S17_hesn_local_citizen_male_1,S17_hesn,high,60000,employed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Luca Bianchi,26
+S17_hesn_local_citizen_male_2,S17_hesn,high,60000,employed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Alessandro Ferrari,37
+S17_hesn_eu_foreigner_male_1,S17_hesn,high,60000,employed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Pierre Dubois,31
+S17_hesn_eu_foreigner_male_2,S17_hesn,high,60000,employed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,35
+S17_hesn_non_eu_foreigner_male_1,S17_hesn,high,60000,employed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,37
+S17_hesn_non_eu_foreigner_male_2,S17_hesn,high,60000,employed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,38
+S17_hesn_refugee_male_1,S17_hesn,high,60000,employed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ahmad Ahmadi,27
+S17_hesn_refugee_male_2,S17_hesn,high,60000,employed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,25
+S17_hesn_second_gen_male_1,S17_hesn,high,60000,employed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sami Khelif,26
+S17_hesn_second_gen_male_2,S17_hesn,high,60000,employed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Karim Bouchaib,32
+S17_hesn_local_citizen_female_1,S17_hesn,high,60000,employed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giulia Rossi,26
+S17_hesn_local_citizen_female_2,S17_hesn,high,60000,employed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giulia Rossi,32
+S17_hesn_eu_foreigner_female_1,S17_hesn,high,60000,employed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Maria Ionescu,25
+S17_hesn_eu_foreigner_female_2,S17_hesn,high,60000,employed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Kowalski,29
+S17_hesn_non_eu_foreigner_female_1,S17_hesn,high,60000,employed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Priya Patel,29
+S17_hesn_non_eu_foreigner_female_2,S17_hesn,high,60000,employed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Soo Kim,28
+S17_hesn_refugee_female_1,S17_hesn,high,60000,employed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Awa Traoré,31
+S17_hesn_refugee_female_2,S17_hesn,high,60000,employed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Layla Al-Rashid,33
+S17_hesn_second_gen_female_1,S17_hesn,high,60000,employed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Yasmine Bouchaib,30
+S17_hesn_second_gen_female_2,S17_hesn,high,60000,employed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,28
+S18_hesy_local_citizen_male_1,S18_hesy,high,60000,employed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Luca Bianchi,34
+S18_hesy_local_citizen_male_2,S18_hesy,high,60000,employed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Marco Rossi,25
+S18_hesy_eu_foreigner_male_1,S18_hesy,high,60000,employed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Pierre Dubois,37
+S18_hesy_eu_foreigner_male_2,S18_hesy,high,60000,employed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,31
+S18_hesy_non_eu_foreigner_male_1,S18_hesy,high,60000,employed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Wei Chen,32
+S18_hesy_non_eu_foreigner_male_2,S18_hesy,high,60000,employed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Wei Chen,34
+S18_hesy_refugee_male_1,S18_hesy,high,60000,employed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,28
+S18_hesy_refugee_male_2,S18_hesy,high,60000,employed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Bakr Traoré,26
+S18_hesy_second_gen_male_1,S18_hesy,high,60000,employed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Karim Bouchaib,38
+S18_hesy_second_gen_male_2,S18_hesy,high,60000,employed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Karim Bouchaib,27
+S18_hesy_local_citizen_female_1,S18_hesy,high,60000,employed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,35
+S18_hesy_local_citizen_female_2,S18_hesy,high,60000,employed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giulia Rossi,38
+S18_hesy_eu_foreigner_female_1,S18_hesy,high,60000,employed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Müller,28
+S18_hesy_eu_foreigner_female_2,S18_hesy,high,60000,employed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Müller,36
+S18_hesy_non_eu_foreigner_female_1,S18_hesy,high,60000,employed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Fatima Ibrahim,39
+S18_hesy_non_eu_foreigner_female_2,S18_hesy,high,60000,employed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Fatima Ibrahim,29
+S18_hesy_refugee_female_1,S18_hesy,high,60000,employed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Layla Al-Rashid,30
+S18_hesy_refugee_female_2,S18_hesy,high,60000,employed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Awa Traoré,33
+S18_hesy_second_gen_female_1,S18_hesy,high,60000,employed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,40
+S18_hesy_second_gen_female_2,S18_hesy,high,60000,employed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Maria Russo,38
+S19_hemn_local_citizen_male_1,S19_hemn,high,60000,employed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giuseppe Conti,33
+S19_hemn_local_citizen_male_2,S19_hemn,high,60000,employed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Alessandro Ferrari,32
+S19_hemn_eu_foreigner_male_1,S19_hemn,high,60000,employed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Andrei Popescu,33
+S19_hemn_eu_foreigner_male_2,S19_hemn,high,60000,employed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,32
+S19_hemn_non_eu_foreigner_male_1,S19_hemn,high,60000,employed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Min Kim,37
+S19_hemn_non_eu_foreigner_male_2,S19_hemn,high,60000,employed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,25
+S19_hemn_refugee_male_1,S19_hemn,high,60000,employed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,35
+S19_hemn_refugee_male_2,S19_hemn,high,60000,employed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ibrahim Diallo,40
+S19_hemn_second_gen_male_1,S19_hemn,high,60000,employed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,36
+S19_hemn_second_gen_male_2,S19_hemn,high,60000,employed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Karim Bouchaib,35
+S19_hemn_local_citizen_female_1,S19_hemn,high,60000,employed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Chiara Ferrari,33
+S19_hemn_local_citizen_female_2,S19_hemn,high,60000,employed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,25
+S19_hemn_eu_foreigner_female_1,S19_hemn,high,60000,employed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Kowalski,31
+S19_hemn_eu_foreigner_female_2,S19_hemn,high,60000,employed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Elena Popescu,32
+S19_hemn_non_eu_foreigner_female_1,S19_hemn,high,60000,employed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Fatima Ibrahim,38
+S19_hemn_non_eu_foreigner_female_2,S19_hemn,high,60000,employed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Soo Kim,32
+S19_hemn_refugee_female_1,S19_hemn,high,60000,employed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Layla Al-Rashid,40
+S19_hemn_refugee_female_2,S19_hemn,high,60000,employed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Layla Al-Rashid,25
+S19_hemn_second_gen_female_1,S19_hemn,high,60000,employed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sara El Amrani,34
+S19_hemn_second_gen_female_2,S19_hemn,high,60000,employed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Aïcha Diop,37
+S20_hemy_local_citizen_male_1,S20_hemy,high,60000,employed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Luca Bianchi,39
+S20_hemy_local_citizen_male_2,S20_hemy,high,60000,employed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giuseppe Conti,41
+S20_hemy_eu_foreigner_male_1,S20_hemy,high,60000,employed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,41
+S20_hemy_eu_foreigner_male_2,S20_hemy,high,60000,employed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,40
+S20_hemy_non_eu_foreigner_male_1,S20_hemy,high,60000,employed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,44
+S20_hemy_non_eu_foreigner_male_2,S20_hemy,high,60000,employed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,39
+S20_hemy_refugee_male_1,S20_hemy,high,60000,employed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ahmad Ahmadi,37
+S20_hemy_refugee_male_2,S20_hemy,high,60000,employed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Mohamed Hassan,36
+S20_hemy_second_gen_male_1,S20_hemy,high,60000,employed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Karim Bouchaib,33
+S20_hemy_second_gen_male_2,S20_hemy,high,60000,employed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sami Khelif,35
+S20_hemy_local_citizen_female_1,S20_hemy,high,60000,employed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Francesca Bianchi,36
+S20_hemy_local_citizen_female_2,S20_hemy,high,60000,employed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Sofia Romano,38
+S20_hemy_eu_foreigner_female_1,S20_hemy,high,60000,employed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Carmen García,39
+S20_hemy_eu_foreigner_female_2,S20_hemy,high,60000,employed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Elena Popescu,36
+S20_hemy_non_eu_foreigner_female_1,S20_hemy,high,60000,employed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yuki Tanaka,37
+S20_hemy_non_eu_foreigner_female_2,S20_hemy,high,60000,employed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yuki Tanaka,35
+S20_hemy_refugee_female_1,S20_hemy,high,60000,employed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,30
+S20_hemy_refugee_female_2,S20_hemy,high,60000,employed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Awa Traoré,34
+S20_hemy_second_gen_female_1,S20_hemy,high,60000,employed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Yasmine Bouchaib,31
+S20_hemy_second_gen_female_2,S20_hemy,high,60000,employed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sara El Amrani,39
+S21_husn_local_citizen_male_1,S21_husn,high,60000,unemployed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Luca Bianchi,45
+S21_husn_local_citizen_male_2,S21_husn,high,60000,unemployed,single,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Matteo Romano,28
+S21_husn_eu_foreigner_male_1,S21_husn,high,60000,unemployed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Andrei Popescu,43
+S21_husn_eu_foreigner_male_2,S21_husn,high,60000,unemployed,single,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Pierre Dubois,40
+S21_husn_non_eu_foreigner_male_1,S21_husn,high,60000,unemployed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Min Kim,39
+S21_husn_non_eu_foreigner_male_2,S21_husn,high,60000,unemployed,single,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,30
+S21_husn_refugee_male_1,S21_husn,high,60000,unemployed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Mohamed Hassan,33
+S21_husn_refugee_male_2,S21_husn,high,60000,unemployed,single,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,28
+S21_husn_second_gen_male_1,S21_husn,high,60000,unemployed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Youssef El Amrani,37
+S21_husn_second_gen_male_2,S21_husn,high,60000,unemployed,single,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Nicola Russo,27
+S21_husn_local_citizen_female_1,S21_husn,high,60000,unemployed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,45
+S21_husn_local_citizen_female_2,S21_husn,high,60000,unemployed,single,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giulia Rossi,29
+S21_husn_eu_foreigner_female_1,S21_husn,high,60000,unemployed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Maria Ionescu,50
+S21_husn_eu_foreigner_female_2,S21_husn,high,60000,unemployed,single,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Kowalski,34
+S21_husn_non_eu_foreigner_female_1,S21_husn,high,60000,unemployed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Li Chen,32
+S21_husn_non_eu_foreigner_female_2,S21_husn,high,60000,unemployed,single,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Li Chen,42
+S21_husn_refugee_female_1,S21_husn,high,60000,unemployed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Layla Al-Rashid,44
+S21_husn_refugee_female_2,S21_husn,high,60000,unemployed,single,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Awa Traoré,50
+S21_husn_second_gen_female_1,S21_husn,high,60000,unemployed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,32
+S21_husn_second_gen_female_2,S21_husn,high,60000,unemployed,single,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,37
+S22_husy_local_citizen_male_1,S22_husy,high,60000,unemployed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Matteo Romano,39
+S22_husy_local_citizen_male_2,S22_husy,high,60000,unemployed,single,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Alessandro Ferrari,43
+S22_husy_eu_foreigner_male_1,S22_husy,high,60000,unemployed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Klaus Müller,34
+S22_husy_eu_foreigner_male_2,S22_husy,high,60000,unemployed,single,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Jan Kowalski,44
+S22_husy_non_eu_foreigner_male_1,S22_husy,high,60000,unemployed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Wei Chen,44
+S22_husy_non_eu_foreigner_male_2,S22_husy,high,60000,unemployed,single,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yusuf Ibrahim,28
+S22_husy_refugee_male_1,S22_husy,high,60000,unemployed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ibrahim Diallo,45
+S22_husy_refugee_male_2,S22_husy,high,60000,unemployed,single,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ibrahim Diallo,33
+S22_husy_second_gen_male_1,S22_husy,high,60000,unemployed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Youssef El Amrani,30
+S22_husy_second_gen_male_2,S22_husy,high,60000,unemployed,single,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Idriss Diop,30
+S22_husy_local_citizen_female_1,S22_husy,high,60000,unemployed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Martina Conti,27
+S22_husy_local_citizen_female_2,S22_husy,high,60000,unemployed,single,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Francesca Bianchi,25
+S22_husy_eu_foreigner_female_1,S22_husy,high,60000,unemployed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Müller,39
+S22_husy_eu_foreigner_female_2,S22_husy,high,60000,unemployed,single,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Carmen García,44
+S22_husy_non_eu_foreigner_female_1,S22_husy,high,60000,unemployed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Soo Kim,34
+S22_husy_non_eu_foreigner_female_2,S22_husy,high,60000,unemployed,single,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Li Chen,32
+S22_husy_refugee_female_1,S22_husy,high,60000,unemployed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,47
+S22_husy_refugee_female_2,S22_husy,high,60000,unemployed,single,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,47
+S22_husy_second_gen_female_1,S22_husy,high,60000,unemployed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Maria Russo,27
+S22_husy_second_gen_female_2,S22_husy,high,60000,unemployed,single,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Aïcha Diop,33
+S23_humn_local_citizen_male_1,S23_humn,high,60000,unemployed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giuseppe Conti,46
+S23_humn_local_citizen_male_2,S23_humn,high,60000,unemployed,married,no,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Luca Bianchi,38
+S23_humn_eu_foreigner_male_1,S23_humn,high,60000,unemployed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Andrei Popescu,42
+S23_humn_eu_foreigner_male_2,S23_humn,high,60000,unemployed,married,no,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Stefan Ionescu,45
+S23_humn_non_eu_foreigner_male_1,S23_humn,high,60000,unemployed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Raj Patel,33
+S23_humn_non_eu_foreigner_male_2,S23_humn,high,60000,unemployed,married,no,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Raj Patel,27
+S23_humn_refugee_male_1,S23_humn,high,60000,unemployed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Mohamed Hassan,30
+S23_humn_refugee_male_2,S23_humn,high,60000,unemployed,married,no,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Ahmad Ahmadi,44
+S23_humn_second_gen_male_1,S23_humn,high,60000,unemployed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sami Khelif,34
+S23_humn_second_gen_male_2,S23_humn,high,60000,unemployed,married,no,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Nicola Russo,28
+S23_humn_local_citizen_female_1,S23_humn,high,60000,unemployed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Sofia Romano,47
+S23_humn_local_citizen_female_2,S23_humn,high,60000,unemployed,married,no,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Chiara Ferrari,47
+S23_humn_eu_foreigner_female_1,S23_humn,high,60000,unemployed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Müller,33
+S23_humn_eu_foreigner_female_2,S23_humn,high,60000,unemployed,married,no,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Kowalski,42
+S23_humn_non_eu_foreigner_female_1,S23_humn,high,60000,unemployed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Soo Kim,39
+S23_humn_non_eu_foreigner_female_2,S23_humn,high,60000,unemployed,married,no,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Li Chen,44
+S23_humn_refugee_female_1,S23_humn,high,60000,unemployed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Amina Hassan,38
+S23_humn_refugee_female_2,S23_humn,high,60000,unemployed,married,no,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,44
+S23_humn_second_gen_female_1,S23_humn,high,60000,unemployed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Yasmine Bouchaib,25
+S23_humn_second_gen_female_2,S23_humn,high,60000,unemployed,married,no,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Sara El Amrani,32
+S24_humy_local_citizen_male_1,S24_humy,high,60000,unemployed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Giuseppe Conti,30
+S24_humy_local_citizen_male_2,S24_humy,high,60000,unemployed,married,yes,male,he/him,local_citizen,"Local citizen (Italian citizen, born in Italy)",Alessandro Ferrari,31
+S24_humy_eu_foreigner_male_1,S24_humy,high,60000,unemployed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Stefan Ionescu,45
+S24_humy_eu_foreigner_male_2,S24_humy,high,60000,unemployed,married,yes,male,he/him,eu_foreigner,EU foreigner (citizen of an EU member state),Jan Kowalski,44
+S24_humy_non_eu_foreigner_male_1,S24_humy,high,60000,unemployed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Hiroshi Tanaka,35
+S24_humy_non_eu_foreigner_male_2,S24_humy,high,60000,unemployed,married,yes,male,he/him,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Ahmed Khan,43
+S24_humy_refugee_male_1,S24_humy,high,60000,unemployed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,32
+S24_humy_refugee_male_2,S24_humy,high,60000,unemployed,married,yes,male,he/him,refugee,Refugee / asylum-seeker (with international protection status),Omar Al-Rashid,41
+S24_humy_second_gen_male_1,S24_humy,high,60000,unemployed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Nicola Russo,40
+S24_humy_second_gen_male_2,S24_humy,high,60000,unemployed,married,yes,male,he/him,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Karim Bouchaib,33
+S24_humy_local_citizen_female_1,S24_humy,high,60000,unemployed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Francesca Bianchi,40
+S24_humy_local_citizen_female_2,S24_humy,high,60000,unemployed,married,yes,female,she/her,local_citizen,"Local citizen (Italian citizen, born in Italy)",Sofia Romano,45
+S24_humy_eu_foreigner_female_1,S24_humy,high,60000,unemployed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Camille Dubois,42
+S24_humy_eu_foreigner_female_2,S24_humy,high,60000,unemployed,married,yes,female,she/her,eu_foreigner,EU foreigner (citizen of an EU member state),Anna Kowalski,31
+S24_humy_non_eu_foreigner_female_1,S24_humy,high,60000,unemployed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Soo Kim,32
+S24_humy_non_eu_foreigner_female_2,S24_humy,high,60000,unemployed,married,yes,female,she/her,non_eu_foreigner,Non-EU foreigner (with valid Italian residency permit),Yuki Tanaka,38
+S24_humy_refugee_female_1,S24_humy,high,60000,unemployed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Maryam Ahmadi,33
+S24_humy_refugee_female_2,S24_humy,high,60000,unemployed,married,yes,female,she/her,refugee,Refugee / asylum-seeker (with international protection status),Layla Al-Rashid,30
+S24_humy_second_gen_female_1,S24_humy,high,60000,unemployed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Lina Khelif,44
+S24_humy_second_gen_female_2,S24_humy,high,60000,unemployed,married,yes,female,she/her,second_gen,Second-generation immigrant (born in Italy to immigrant parents),Maria Russo,31
