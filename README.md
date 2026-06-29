@@ -14,7 +14,7 @@ Two models, same design: **5 apartments × 480 profiles = 2,400 calls** per mode
 | `openrouter/owl-alpha` | [OpenRouter](https://openrouter.ai) | `results/sft_results_full.json` | `results/mit_*_owl.json` |
 | `qwen3.5-9b` | [Regolo](https://regolo.ai) | `results/sft_results_qwen35.json` | `results/mit_*_qwen35.json` |
 
-**Status:** all **7,800** planned API calls complete (main audit + RQ4 per model). Approx. runtime: **~8 h** (`openrouter/owl-alpha`), **~9 h** (`qwen3.5-9b`), June 2026.
+**Status:** all **7,800** planned API calls complete (main audit + RQ4 per model). Approx. runtime: **~8 h** (`openrouter/owl-alpha`), **~9 h** (`qwen3.5-9b`).
 
 Copy `.env.example` to `.env` and add API keys. Use **Regolo** for Qwen, **OpenRouter** for owl-alpha.
 
