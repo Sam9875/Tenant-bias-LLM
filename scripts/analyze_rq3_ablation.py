@@ -9,7 +9,7 @@ Income ablation strategies:
 Outputs:
   - results/rq3_ablation_results.json
   - results/figures_sft/ablation_*.png
-  - docs/_rq3_ablation_snippet.html  (dashboard patch fragments)
+  - Refresh dashboard: python scripts/update_dashboard.py
 """
 
 import json
@@ -33,8 +33,6 @@ def _default_results_path():
     return PROJECT_ROOT / "results" / "sft_results_qwen35.json"
 OUTPUT_JSON = PROJECT_ROOT / "results" / "rq3_ablation_results.json"
 FIGURES_DIR = PROJECT_ROOT / "results" / "figures_sft"
-SNIPPET_PATH = PROJECT_ROOT / "docs" / "_rq3_ablation_snippet.html"
-
 BG_ORDER = ["local_citizen", "eu_foreigner", "non_eu_foreigner", "second_gen", "refugee"]
 BG_LABELS = {
     "local_citizen": "Local",
@@ -376,29 +374,6 @@ def main():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
-    cq = cochran["p"]
-    cq_str = f"Q={cochran['Q']}, p={cochran['p']}" if cochran.get("Q") is not None else "insufficient cells"
-    lr = interaction
-    med_cq = results["income_ablation"]["medium_only"]["cochran_q"]
-
-    snippet = f"""<!-- RQ3 + ABLATION auto-generated -->
-<div class="callout {'warn' if cq and cq < 0.05 else 'good'}">
-  <strong>RQ3 (intersectional):</strong> Cochran's Q for homogeneous gender odds ratios across backgrounds: <strong>{cq_str}</strong>.
-  Logistic interaction LR test (gender × background, controlling income+apartment): χ²={lr['lr_chi2']}, df={lr['lr_df']}, p={lr['lr_p']}.
-  {'Significant interaction detected.' if lr['significant_interaction'] else 'No significant gender×background interaction after controlling income.'}
-</div>
-{html_table_gender_bg(gender_bg)}
-<h3 style="margin-top:20px;">Income ablation (remove income confound)</h3>
-<p>Within each income stratum, employment/marital/children still vary across sets — use medium-income slice or set fixed-effects for cleanest ablation.</p>
-{html_ablation_table(stratified)}
-<div class="callout" style="margin-top:12px;">
-  <strong>Medium-income ablation (n={len(med)}):</strong> background χ² p={stratified['medium']['background_chi']['p'] if stratified['medium']['background_chi'] else '—'};
-  Cochran Q p={med_cq.get('p', '—')}. Refugee advantage is {'strongest' if stratified['medium']['background'].get('refugee',{}).get('pct',0) > 35 else 'present'} at medium income ({stratified['medium']['background'].get('refugee',{}).get('pct',0)}% Yes).
-</div>
-"""
-
-    SNIPPET_PATH.write_text(snippet, encoding="utf-8")
-
     print(f"[OK] n={len(df)} model={model}")
     print(f"[OK] Cochran Q: {cochran}")
     print(f"[OK] Interaction LR: {interaction}")
@@ -407,7 +382,6 @@ def main():
         s = stratified[inc]
         print(f"  {inc}: gender p={s['gender_chi']['p'] if s['gender_chi'] else '—'}, bg p={s['background_chi']['p'] if s['background_chi'] else '—'}")
     print(f"[OK] Wrote {OUTPUT_JSON}")
-    print(f"[OK] Wrote {SNIPPET_PATH}")
 
 
 if __name__ == "__main__":
