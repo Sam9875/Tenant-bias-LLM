@@ -179,7 +179,7 @@
   <h1>Tenant Bias Audit: Final Report</h1>
   <p>Investigating discrimination by LLMs in rental tenant evaluation (Turin, Italy)</p>
   <div>
-    <span class="badge">UPDATED 2026-06-26</span>
+    <span class="badge">UPDATED 2026-06-29</span>
     <span class="badge">owl-alpha: 2400/2400</span>
     <span class="badge">qwen3.5-9b: 2400/2400</span>
     <span class="badge">Dual-model dashboard</span>
@@ -237,7 +237,7 @@
 </div>
 
 <h2 id="headline">Headline Findings — Model Comparison</h2>
-<div class="callout good"><strong>openrouter/owl-alpha (n=2400):</strong> <strong>Strong income effect</strong> (χ²=741.1, V=0.556). <strong>Significant national-background effect</strong> (χ²=62.41, p=0.0, V=0.161) — refugees 51.7% vs ~32.4% others. <strong>Significant gender gap</strong> (p=0.0373). Overall: 36.2% Yes / 63.8% No.</div>
+<div class="callout good"><strong>openrouter/owl-alpha (n=2400):</strong> <strong>Strong income effect</strong> (χ²=741.79, V=0.556). <strong>Significant national-background effect</strong> (χ²=62.62, p=0.0, V=0.162) — refugees 51.7% vs ~32.3% others. <strong>Significant gender gap</strong> (p=0.0374). Overall: 36.2% Yes / 63.8% No.</div>
 <h2 id="charts-Owl">Results Charts — openrouter/owl-alpha (n=2400)</h2>
 <div class="grid-2">
   <div class="chart-box"><h4>Fit rate by income level</h4><canvas id="chartIncomeOwl"></canvas></div>
@@ -1139,15 +1139,15 @@
     options: { ...chartDefaults, plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ctx.parsed.y + '% fit rate' } } } }
   });
   const bgLabels = ["Local", "EU", "Non-EU", "Refugee", "2nd gen"];
-  bar('chartIncomeOwl', ['Low €12k', 'Medium €28k', 'High €60k'], [1.5, 40.6, 66.5], ["#dc2626", "#d97706", "#059669"]);
-  bar('chartBackgroundOwl', ["Local", "EU", "Non-EU", "Refugee", "2nd gen"], [31.7, 32.1, 33.1, 51.7, 32.5], ["#2563eb", "#2563eb", "#2563eb", "#059669", "#2563eb"]);
-  bar('chartGenderOwl', ['Male', 'Female'], [34.1, 38.3], ["#7c3aed", "#7c3aed"]);
-  bar('chartApartmentOwl', ["A1 \u20ac500", "A2 \u20ac1750", "A3 \u20ac890", "A4 \u20ac650", "A5 \u20ac700"], [42.7, 23.0, 37.5, 37.1, 40.6], ["#0891b2", "#dc2626", "#0891b2", "#0891b2", "#0891b2"]);
+  bar('chartIncomeOwl', ['Low €12k', 'Medium €28k', 'High €60k'], [1.5, 40.5, 66.5], ["#dc2626", "#d97706", "#059669"]);
+  bar('chartBackgroundOwl', ["Local", "EU", "Non-EU", "Refugee", "2nd gen"], [31.7, 32.1, 32.9, 51.7, 32.5], ["#2563eb", "#2563eb", "#2563eb", "#059669", "#2563eb"]);
+  bar('chartGenderOwl', ['Male', 'Female'], [34.1, 38.2], ["#7c3aed", "#7c3aed"]);
+  bar('chartApartmentOwl', ["A1 \u20ac500", "A2 \u20ac1750", "A3 \u20ac890", "A4 \u20ac650", "A5 \u20ac700"], [42.7, 22.9, 37.5, 37.1, 40.6], ["#0891b2", "#dc2626", "#0891b2", "#0891b2", "#0891b2"]);
   new Chart(document.getElementById('chartIntersectionOwl'), {
     type: 'bar',
     data: { labels: bgLabels, datasets: [
-      { label: 'Male', data: [29.2, 30.0, 31.8, 50.0, 29.6], backgroundColor: '#7c3aed' },
-      { label: 'Female', data: [34.2, 34.2, 34.3, 53.3, 35.4], backgroundColor: '#c084fc' }
+      { label: 'Male', data: [29.2, 30.0, 31.7, 50.0, 29.6], backgroundColor: '#7c3aed' },
+      { label: 'Female', data: [34.2, 34.2, 34.2, 53.3, 35.4], backgroundColor: '#c084fc' }
     ]},
     options: { responsive: true, plugins: { legend: { position: 'top' } }, scales: { y: { beginAtZero: true, max: 60, ticks: { callback: v => v + '%' } } } }
   });
@@ -1155,7 +1155,7 @@
     type: 'bar',
     data: { labels: bgLabels, datasets: [
       { label: 'Low €12k', data: [0.0, 0.0, 0.0, 7.5, 0.0], backgroundColor: '#dc2626' },
-      { label: 'Medium €28k', data: [38.1, 35.0, 37.7, 52.5, 39.4], backgroundColor: '#d97706' },
+      { label: 'Medium €28k', data: [38.1, 35.0, 37.5, 52.5, 39.4], backgroundColor: '#d97706' },
       { label: 'High €60k', data: [56.9, 61.2, 61.2, 95.0, 58.1], backgroundColor: '#059669' }
     ]},
     options: { responsive: true, plugins: { legend: { position: 'top' } }, scales: { y: { beginAtZero: true, max: 100, ticks: { callback: v => v + '%' } } } }
@@ -1163,8 +1163,8 @@
   new Chart(document.getElementById('chartIntersectionRq3Owl'), {
     type: 'bar',
     data: { labels: bgLabels, datasets: [
-      { label: 'Male', data: [29.2, 30.0, 31.8, 50.0, 29.6], backgroundColor: '#7c3aed' },
-      { label: 'Female', data: [34.2, 34.2, 34.3, 53.3, 35.4], backgroundColor: '#c084fc' }
+      { label: 'Male', data: [29.2, 30.0, 31.7, 50.0, 29.6], backgroundColor: '#7c3aed' },
+      { label: 'Female', data: [34.2, 34.2, 34.2, 53.3, 35.4], backgroundColor: '#c084fc' }
     ]},
     options: { responsive: true, plugins: { legend: { position: 'top' } }, scales: { y: { beginAtZero: true, max: 60, ticks: { callback: v => v + '%' } } } }
   });
@@ -1172,7 +1172,7 @@
     type: 'bar',
     data: { labels: bgLabels, datasets: [
       { label: 'Low €12k', data: [0.0, 0.0, 0.0, 7.5, 0.0], backgroundColor: '#dc2626' },
-      { label: 'Medium €28k', data: [38.1, 35.0, 37.7, 52.5, 39.4], backgroundColor: '#d97706' },
+      { label: 'Medium €28k', data: [38.1, 35.0, 37.5, 52.5, 39.4], backgroundColor: '#d97706' },
       { label: 'High €60k', data: [56.9, 61.2, 61.2, 95.0, 58.1], backgroundColor: '#059669' }
     ]},
     options: { responsive: true, plugins: { legend: { position: 'top' } }, scales: { y: { beginAtZero: true, max: 100, ticks: { callback: v => v + '%' } } } }
