@@ -1,6 +1,6 @@
 # LLM_SFT: Tenant Bias Audit
 
-This folder contains the experiment following the professor's specification:
+This folder contains the experiment following the:
 **"Investigating discrimination by an LLM in the assignment of rental apartments in Turin."**
 
 ## What this experiment does
@@ -95,7 +95,7 @@ RQ4 uses the same listing/profile pairs with two alternate prompts: **explicit f
 - **Key test:** Are gender/nationality coefficients significant *after* controlling for legitimate factors?
 - **Visualizations:** Fit rates by background, by apartment, by income, by gender
 
-## Research questions (from V1/V2, applied here)
+## Research questions 
 
 - **RQ1 (Gender):** Does gender affect fit decisions when controlling for income/employment/family?
 - **RQ2 (National background):** Does national background affect fit decisions?
@@ -128,14 +128,6 @@ python scripts/run_sft.py
 python scripts/analyze_sft.py
 ```
 
-## Context: V1/V2 findings
-
-The parent project (`../`) has two earlier experiments that informed this design:
-
-- **V1** (80 calls): Profiles with IDENTICAL qualifications, vague prompt → no detectable bias (but score compression: all 9s, no discrimination)
-- **V2** (80 calls): Profiles with REAL qualification variation, anchored prompt → significant gender bias (p=0.004), ethnic bias (p<0.0001), intersectional effects
-
-**Key V1/V2 lesson applied here:** A vague prompt can mask real bias. This SFT experiment uses a precise prompt (Yes/No + motivation) and realistic variations to ensure the LLM is forced to discriminate.
 
 ## Model choice (motivated)
 
