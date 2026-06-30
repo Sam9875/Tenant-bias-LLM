@@ -1,0 +1,20 @@
+APPENDIX LAYOUT FIX — paste into Overleaf
+==========================================
+
+PROBLEM: Charts were squeezed into half a column (tiny + unreadable).
+
+FIX:
+  - figure* spans FULL page width (charts ~2× larger)
+  - Text condensed below (no quote box, no table)
+  - Figure numbered A.1 (not "Figure 1")
+
+STEP 1 — figures/ must contain:
+  dashboard_mitigation_owl.png
+  dashboard_mitigation_qwen.png
+
+STEP 2 — Replace \appendix … \end{document} with appendix_full.tex
+
+STEP 3 — Recompile
+
+If figure* floats to a separate page, add to preamble (once):
+  \usepackage{dblfloatfix}

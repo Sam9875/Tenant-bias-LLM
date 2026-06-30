@@ -1,0 +1,21 @@
+% STEP 9 — Fix appendix Table 12 (broken rows / "EU Baseline")
+% Find the appendix table starting with:
+%   \caption{RQ4 mitigation summary ($n=500$ matched pairs per condition).}
+% Replace the whole \begin{table}...\end{table} block with:
+
+\begin{table}[h]
+\centering
+\caption{RQ4 mitigation summary ($n=500$ matched pairs per condition).}
+\label{tab:app-mitigation}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Condition} & \textbf{owl} & \textbf{qwen} & \textbf{$\Delta$} \\
+\midrule
+Baseline     & 37.6\% & 32.0\% & ref. \\
+Fairness     & 37.4\% & 39.0\% & $-0.2$\,pp \\
+CoT          & 25.0\% & 32.4\% & $-12.6$\,pp \\
+\bottomrule
+\end{tabular}
+\end{table}

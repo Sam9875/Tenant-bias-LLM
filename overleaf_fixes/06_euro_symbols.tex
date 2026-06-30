@@ -1,0 +1,14 @@
+% Add to preamble (main.tex), if € renders as "=C" or missing:
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{eurosym}
+
+% Then in body, use ONE of:
+\euro{}500
+\euro{}1{,}750
+% or
+500~\texteuro{} per month
+
+% Replace corrupted "=C500" with \euro{}500 throughout all tables and listings.

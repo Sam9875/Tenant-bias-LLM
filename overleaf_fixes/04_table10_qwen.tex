@@ -1,0 +1,21 @@
+% Table 10 — sync with results/sft_results_qwen35.json (n=2400)
+
+\begin{table}[t]
+  \centering
+  \caption{Cross-model comparison on the identical audit protocol ($n=2{,}400$ each).}
+  \label{tab:cross-model}
+  \begin{tabular}{lcc}
+    \toprule
+    Measure & \texttt{owl-alpha} & \texttt{qwen3.5-9b} \\
+    \midrule
+    Overall Yes rate & 36.2\% & 29.7\% \\
+    Gender (M / F) & 34.1 / 38.2 & 28.8 / 30.6 \\
+    Gender effect ($V$) & 0.042 ($p=0.037$) & 0.019 (ns) \\
+    Refugee vs.\ others & 51.7 / $\sim$32 & 41.2 / $\sim$27 \\
+    Background effect ($V$) & 0.163 & 0.131 \\
+    Income low / med / high & 1.5 / 40.5 / 66.5 & 1.1 / 33.0 / 54.9 \\
+    Income effect ($V$) & 0.555 & 0.480 \\
+    Interaction (Cochran $Q$) & 0.44 ($p=.98$) & 0.70 ($p=.95$) \\
+    \bottomrule
+  \end{tabular}
+\end{table}

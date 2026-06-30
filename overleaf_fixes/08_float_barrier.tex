@@ -1,0 +1,11 @@
+% STEP 8 — Stop Qwen figures floating into Discussion/Conclusion
+% Apply BOTH parts below, then Recompile.
+
+% --- PART A: Preamble (after \usepackage{graphicx}) ---
+\usepackage{placeins}
+
+% --- PART B: Before Qualitative Analysis ---
+% Find this exact line:
+%   \section{Qualitative Analysis}
+% Insert ONE line immediately above it:
+\FloatBarrier

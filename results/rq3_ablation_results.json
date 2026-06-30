@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated": "2026-06-25",
+    "generated": "2026-06-29",
     "model": "qwen3.5-9b",
-    "n": 2392,
+    "n": 2400,
     "source": "sft_results_qwen35.json"
   },
   "rq3": {
@@ -13,10 +13,10 @@
         "male_yes": 58,
         "male_total": 240,
         "male_pct": 24.2,
-        "female_yes": 59,
-        "female_total": 238,
-        "female_pct": 24.8,
-        "gap_pp": 0.6
+        "female_yes": 61,
+        "female_total": 240,
+        "female_pct": 25.4,
+        "gap_pp": 1.2
       },
       {
         "background": "eu_foreigner",
@@ -24,10 +24,10 @@
         "male_yes": 60,
         "male_total": 240,
         "male_pct": 25.0,
-        "female_yes": 64,
-        "female_total": 238,
-        "female_pct": 26.9,
-        "gap_pp": 1.9
+        "female_yes": 66,
+        "female_total": 240,
+        "female_pct": 27.5,
+        "gap_pp": 2.5
       },
       {
         "background": "non_eu_foreigner",
@@ -43,24 +43,24 @@
       {
         "background": "second_gen",
         "label": "2nd gen",
-        "male_yes": 60,
-        "male_total": 238,
-        "male_pct": 25.2,
+        "male_yes": 62,
+        "male_total": 240,
+        "male_pct": 25.8,
         "female_yes": 69,
         "female_total": 240,
         "female_pct": 28.8,
-        "gap_pp": 3.6
+        "gap_pp": 3.0
       },
       {
         "background": "refugee",
         "label": "Refugee",
-        "male_yes": 98,
-        "male_total": 238,
-        "male_pct": 41.2,
+        "male_yes": 100,
+        "male_total": 240,
+        "male_pct": 41.7,
         "female_yes": 98,
         "female_total": 240,
         "female_pct": 40.8,
-        "gap_pp": -0.4
+        "gap_pp": -0.9
       }
     ],
     "cochran_q": {
@@ -73,14 +73,14 @@
           "background": "local_citizen",
           "male_yes": 58,
           "male_no": 182,
-          "female_yes": 59,
+          "female_yes": 61,
           "female_no": 179
         },
         {
           "background": "eu_foreigner",
           "male_yes": 60,
           "male_no": 180,
-          "female_yes": 64,
+          "female_yes": 66,
           "female_no": 174
         },
         {
@@ -92,14 +92,14 @@
         },
         {
           "background": "second_gen",
-          "male_yes": 60,
+          "male_yes": 62,
           "male_no": 178,
           "female_yes": 69,
           "female_no": 171
         },
         {
           "background": "refugee",
-          "male_yes": 98,
+          "male_yes": 100,
           "male_no": 140,
           "female_yes": 98,
           "female_no": 142
@@ -110,7 +110,7 @@
     "logistic_interaction_lr": {
       "lr_chi2": 2.58,
       "lr_df": 4,
-      "lr_p": 0.6307,
+      "lr_p": 0.6309,
       "significant_interaction": false
     }
   },
@@ -241,33 +241,33 @@
         "gender_gap_pp": 1.6
       },
       "high": {
-        "n": 792,
+        "n": 800,
         "gender": {
           "female": {
-            "yes": 223,
+            "yes": 227,
             "no": 173,
-            "total": 396,
-            "pct": 56.3
+            "total": 400,
+            "pct": 56.8
           },
           "male": {
-            "yes": 208,
+            "yes": 212,
             "no": 188,
-            "total": 396,
-            "pct": 52.5
+            "total": 400,
+            "pct": 53.0
           }
         },
         "background": {
           "eu_foreigner": {
-            "yes": 78,
+            "yes": 80,
             "no": 80,
-            "total": 158,
-            "pct": 49.4
+            "total": 160,
+            "pct": 50.0
           },
           "local_citizen": {
-            "yes": 74,
+            "yes": 76,
             "no": 84,
-            "total": 158,
-            "pct": 46.8
+            "total": 160,
+            "pct": 47.5
           },
           "non_eu_foreigner": {
             "yes": 83,
@@ -276,29 +276,29 @@
             "pct": 51.9
           },
           "refugee": {
-            "yes": 114,
+            "yes": 116,
             "no": 44,
-            "total": 158,
-            "pct": 72.2
+            "total": 160,
+            "pct": 72.5
           },
           "second_gen": {
-            "yes": 82,
+            "yes": 84,
             "no": 76,
-            "total": 158,
-            "pct": 51.9
+            "total": 160,
+            "pct": 52.5
           }
         },
         "gender_chi": {
-          "chi2": 1.0,
-          "p": 0.3179,
+          "chi2": 0.99,
+          "p": 0.3199,
           "cramers_v": 0.035,
-          "n": 792
+          "n": 800
         },
         "background_chi": {
-          "chi2": 26.14,
+          "chi2": 26.07,
           "p": 0.0,
-          "cramers_v": 0.182,
-          "n": 792
+          "cramers_v": 0.181,
+          "n": 800
         },
         "gender_gap_pp": 3.8
       }

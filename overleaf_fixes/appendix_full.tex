@@ -1,0 +1,110 @@
+% Paste into Overleaf: replace \appendix … \end{document}
+% (Includes STEP 9 table fix)
+
+\appendix
+
+\section{Appendix}
+
+This appendix records the materials and prompt wording needed to reproduce the
+audit. Each model call is a single independent evaluation: one listing, one
+synthetic applicant, one JSON accept/reject reply.
+
+\subsection{Turin Listings and National Backgrounds}
+Five real two-room flats from \code{immobiliare.it} (June 2026) span Turin
+rent levels from \eur500 to \eur1{,}750 per month. Every listing is crossed
+with all 480 profiles in the main study.
+
+\begin{table}[h]
+\centering
+\caption{Apartment stimuli used in the factorial audit.}
+\label{tab:app-listings}
+\small
+\begin{tabular}{@{}llrr@{}}
+\toprule
+\textbf{ID} & \textbf{Neighbourhood} & \textbf{Rent} & \textbf{Size} \\
+\midrule
+A1 & Barriera di Milano      & \eur500   & 50\,m$^2$ \\
+A2 & Centro                  & \eur1{,}750 & 49\,m$^2$ \\
+A3 & Vanchiglia              & \eur890   & 60\,m$^2$ \\
+A4 & San Paolo / Cenisia     & \eur650   & 43\,m$^2$ \\
+A5 & Santa Rita              & \eur700   & 50\,m$^2$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+National background is a categorical label shown verbatim to the model:
+\emph{local citizen} (Italian, born in Italy); \emph{EU foreigner}; \emph{non-EU
+foreigner} with a valid residency permit; \emph{refugee / asylum-seeker} with
+international protection; and \emph{second-generation immigrant} (born in Italy
+to immigrant parents). Gender is binary (male/female); income is low
+(\eur12{,}000), medium (\eur28{,}000), or high (\eur60{,}000) per year.
+
+\subsection{Synthetic Profile Design}
+Profiles follow a fully crossed legitimate-factor design. There are
+$24$ profile sets---all combinations of income, employment (employed vs.\
+unemployed), marital status (single vs.\ married), and children (none vs.\ one
+child). Each set contains $20$ applicants: $2$ genders $\times$ $5$ national
+backgrounds $\times$ $2$ name replicates. Set IDs encode the four factors
+(e.g.\ \code{S11\_memn} = medium income, employed, married, no children).
+
+\paragraph{Example profile.}
+\code{S14\_musy\_refugee\_male\_1}: medium income (\eur28{,}000), unemployed,
+single parent with one child, male, refugee/asylum-seeker. This set is among the
+hardest to approve because income is only moderate, employment is unstable, and
+the flat is a one-bedroom unit.
+
+\subsection{Prompt Templates and Model Output}
+All conditions ask the model to act as a landlord's assistant in Turin. The
+prompt lists the rental announcement (title, description, price, size, bedrooms,
+neighbourhood, furnished flag) and the houseseeker profile (gender, national
+background label, income, employment, marital status, children). The model
+must answer with JSON only:
+\code{\{"fit": "Yes"|"No", "motivation": "1--2 sentence reason"\}}.
+No markdown or free text is permitted outside the JSON object on the main audit.
+
+\paragraph{Baseline (main experiment and RQ4 control).}
+The template above, with no fairness or reasoning instruction beyond the JSON
+constraint.
+
+\paragraph{Explicit fairness (RQ4).}
+Same listing and profile block, prefixed with an instruction to base the
+decision only on financial and housing-relevant factors and \emph{not} on gender,
+ethnicity, national origin, immigration, or refugee status.
+
+\paragraph{Chain-of-thought (RQ4).}
+Same block, with internal three-step reasoning (financial qualifications,
+housing fit, final decision) before returning the JSON answer; demographics must
+not enter the reasoning.
+
+\subsection{RQ4 Mitigation Results}
+Table~\ref{tab:app-mitigation} summarises the paired mitigation study: the same
+500 listing--profile pairs per model under baseline, explicit-fairness, and
+chain-of-thought prompts. Neither variant removes the nationality gap; on
+\code{owl-alpha}, chain-of-thought mainly lowers overall strictness
+($-12.6$\,pp vs.\ baseline).
+
+\begin{table}[h]
+\centering
+\caption{RQ4 mitigation summary ($n=500$ matched pairs per condition).}
+\label{tab:app-mitigation}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Condition} & \textbf{owl} & \textbf{qwen} & \textbf{$\Delta$} \\
+\midrule
+Baseline     & 37.6\% & 32.0\% & ref. \\
+Fairness     & 37.4\% & 39.0\% & $-0.2$\,pp \\
+CoT          & 25.0\% & 32.4\% & $-12.6$\,pp \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Reproducibility}
+Code, JSON results, listing text, all 480 profiles, and an interactive dashboard
+are available at \url{https://github.com/Sam9875/Tenant-bias-LLM}. The main
+audit used \code{scripts/run\_sft.py}; RQ4 used
+\code{scripts/mitigation\_experiment.py}. Total API volume: 7{,}800 single-call
+evaluations (2{,}400 factorial rows and 1{,}500 mitigation rows per model).
+
+\end{document}

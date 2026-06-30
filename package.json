@@ -1,0 +1,28 @@
+{
+  "name": "llm_sft",
+  "version": "1.0.0",
+  "description": "Investigating whether LLMs discriminate against rental applicants in Turin based on **gender** or **national background**, while varying legitimate factors (income, employment, family situation).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sam9875/Tenant-bias-LLM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sam9875/Tenant-bias-LLM/issues"
+  },
+  "homepage": "https://github.com/Sam9875/Tenant-bias-LLM#readme",
+  "dependencies": {
+    "docx": "^9.7.1",
+    "pptxgenjs": "^4.0.1"
+  }
+}
